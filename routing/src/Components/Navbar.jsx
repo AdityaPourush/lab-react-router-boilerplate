@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = ()=> {
     return(
         <>
-            <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", }}>
+            <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", backgroundColor: "blue"}}>
                 <Link to={"/"} style={{padding : "2vh",  color: "black" , textDecoration: "none"}}><h1>Kalvium</h1></Link>
                 <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", }}>
                     <Link to={"/about"} style={{padding : "2vh",  color: "black" , textDecoration: "none"}}> <h1>About</h1> </Link>
